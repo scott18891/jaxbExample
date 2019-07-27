@@ -6,46 +6,47 @@ import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement(name="root")
+@XmlRootElement(name = "root")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class FeDmo extends DMO {
 
-    private String field1;
-    private String field2;
-    private String field3;
-    private String field4;
-    private String field5;
-    private FeDmo(){
+    private String feField1;
+    private String feField2;
+    private String feField3;
+    private String feField4;
+    private String feField5;
+
+    private FeDmo() {
         super();
         //Needed for Jaxb
     }
 
-    public FeDmo(final String filename, final String field1, final String field2, final String field3, final String field4, final String field5) {
+    public FeDmo(final String filename, final String feField1, final String feField2, final String feField3, final String feField4, final String feField5) {
         super(filename);
-        this.field1 = field1;
-        this.field2 = field2;
-        this.field3 = field3;
-        this.field4 = field4;
-        this.field5 = field5;
+        this.feField1 = feField1;
+        this.feField2 = feField2;
+        this.feField3 = feField3;
+        this.feField4 = feField4;
+        this.feField5 = feField5;
     }
 
-    public String getField3() {
-        return field3;
+    public String getFeField3() {
+        return feField3;
     }
 
-    public String getField4() {
-        return field4;
+    public String getFeField4() {
+        return feField4;
     }
 
-    public String getField5() {
-        return field5;
+    public String getFeField5() {
+        return feField5;
     }
 
-    public String getField2() {
-        return field2;
+    public String getFeField2() {
+        return feField2;
     }
 
-    public String getField1() {
-        return field1;
+    public String getFeField1() {
+        return feField1;
     }
 }

@@ -15,7 +15,19 @@ import java.io.InputStream;
 public class Translator {
 
 
-    public  byte[] translate(DMO object, String fileName, Class clazz) throws TransformerException, JAXBException, IOException {
+    /**
+     *
+     * @param object
+     * @param fileName
+     * @param clazz
+     *
+     * @return
+     *
+     * @throws TransformerException
+     * @throws JAXBException
+     * @throws IOException
+     */
+    public byte[] translate(final DMO object, final String fileName, final Class clazz) throws TransformerException, JAXBException, IOException {
         //translate
 
         TransformerFactory factory = TransformerFactory.newInstance();

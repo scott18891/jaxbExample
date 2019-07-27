@@ -5,19 +5,19 @@
         <root>
             <element>
                 <xls:attribute name="field1">
-                    <xsl:value-of select='root/fooField1'/>
+                    <xsl:value-of select='root/feField1'/>
                 </xls:attribute>
                 <xls:attribute name="field2">
-                    <xsl:value-of select='root/fooField2'/>
+                    <xsl:value-of select='root/feField2'/>
                 </xls:attribute>
                 <xls:attribute name="field3">
-                    <xsl:value-of select='root/fooField3'/>
+                    <xsl:value-of select='root/feField3'/>
                 </xls:attribute>
                 <xls:attribute name="field4">
-                    <xsl:value-of select='root/fooField4'/>
+                    <xsl:value-of select='root/feField4'/>
                 </xls:attribute>
                 <xls:attribute name="field5">
-                    <xsl:value-of select='root/fooField5'/>
+                    <xsl:value-of select='root/feField5'/>
                 </xls:attribute>
             </element>
         </root>

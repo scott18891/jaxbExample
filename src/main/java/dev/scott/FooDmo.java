@@ -9,38 +9,38 @@ import javax.xml.bind.annotation.*;
 public class FooDmo extends DMO {
 
     private String fooField1;
-    private String field2;
-    private String field3;
-    private String field4;
-    private String field5;
+    private String fooField2;
+    private String fooField3;
+    private String fooField4;
+    private String fooField5;
     private FooDmo(){
         super();
         //Needed for Jaxb
     }
 
-    public FooDmo(final String filename, final String fooField1, final String field2, final String field3, final String field4, final String field5) {
+    public FooDmo(final String filename, final String fooField1, final String fooField2, final String fooField3, final String fooField4, final String fooField5) {
         super(filename);
         this.fooField1 = fooField1;
-        this.field2 = field2;
-        this.field3 = field3;
-        this.field4 = field4;
-        this.field5 = field5;
+        this.fooField2 = fooField2;
+        this.fooField3 = fooField3;
+        this.fooField4 = fooField4;
+        this.fooField5 = fooField5;
     }
 
-    public String getField3() {
-        return field3;
+    public String getFooField3() {
+        return fooField3;
     }
 
-    public String getField4() {
-        return field4;
+    public String getFooField4() {
+        return fooField4;
     }
 
-    public String getField5() {
-        return field5;
+    public String getFooField5() {
+        return fooField5;
     }
 
-    public String getField2() {
-        return field2;
+    public String getFooField2() {
+        return fooField2;
     }
 
     public String getFooField1() {

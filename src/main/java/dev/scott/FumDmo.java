@@ -10,42 +10,42 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class FumDmo extends DMO {
 
-    private String field1;
-    private String field2;
-    private String field3;
-    private String field4;
-    private String field5;
+    private String fumField1;
+    private String fumField2;
+    private String fumField3;
+    private String fumField4;
+    private String fumField5;
     private FumDmo(){
         super();
         //Needed for Jaxb
     }
 
-    public FumDmo(final String filename, final String field1, final String field2, final String field3, final String field4, final String field5) {
+    public FumDmo(final String filename, final String fumField1, final String fumField2, final String fumField3, final String fumField4, final String fumField5) {
         super(filename);
-        this.field1 = field1;
-        this.field2 = field2;
-        this.field3 = field3;
-        this.field4 = field4;
-        this.field5 = field5;
+        this.fumField1 = fumField1;
+        this.fumField2 = fumField2;
+        this.fumField3 = fumField3;
+        this.fumField4 = fumField4;
+        this.fumField5 = fumField5;
     }
 
-    public String getField3() {
-        return field3;
+    public String getFumField3() {
+        return fumField3;
     }
 
-    public String getField4() {
-        return field4;
+    public String getFumField4() {
+        return fumField4;
     }
 
-    public String getField5() {
-        return field5;
+    public String getFumField5() {
+        return fumField5;
     }
 
-    public String getField2() {
-        return field2;
+    public String getFumField2() {
+        return fumField2;
     }
 
-    public String getField1() {
-        return field1;
+    public String getFumField1() {
+        return fumField1;
     }
 }
